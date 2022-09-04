@@ -1,0 +1,25 @@
+{
+  "name": "John Smith",
+  "links": [
+    {
+      "name": "Website",
+      "link": "https://gdsc.nz",
+      "icon": "fa fa-globe"
+    },
+    {
+      "name": "Email",
+      "link": "mailto:hello@gdsc.nz",
+      "icon": "fa-regular fa-envelope"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://github.com",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://linkedin.com",
+      "icon": "fa-brands fa-linkedin"
+    }
+  ]
+}

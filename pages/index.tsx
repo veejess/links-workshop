@@ -2,6 +2,8 @@ import type {NextPage} from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import LinkEntry from "../components/LinkEntry"
+// @ts-ignore
+import {links, name} from "/config.json"
 
 const Home: NextPage = () => {
   return (
@@ -15,32 +17,9 @@ const Home: NextPage = () => {
 
         <main className={styles.main + " gap-[20px]"}>
           <div className="text-3xl">
-            John Smith
+            {name}
           </div>
-          {
-            [
-              {
-                name: "Website",
-                link: "https://gdsc.nz",
-                icon: "fa fa-globe",
-              },
-              {
-                name: "Email",
-                link: "mailto:hello@gdsc.nz",
-                icon: "fa-regular fa-envelope",
-              },
-              {
-                name: "GitHub",
-                link: "https://github.com",
-                icon: "fa-brands fa-github"
-              },
-              {
-                name: "LinkedIn",
-                link: "https://linkedin.com",
-                icon: "fa-brands fa-linkedin"
-              },
-            ].map(LinkEntry)
-          }
+          {links.map(LinkEntry)}
         </main>
       </div>
   )
