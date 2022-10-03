@@ -1,3 +1,4 @@
+/* We use Tailwind for a lot of the default style choices to make this page more simpler */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
