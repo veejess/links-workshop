@@ -4,12 +4,13 @@
 @tailwind utilities;
 
 body {
+    font-family: 'DM Serif Display', serif;
     @apply text-3xl; /* Sane defaults that you hopefully don't need to change */
 }
 
 .app {
     @apply grid h-screen; /* Sane defaults that you hopefully don't need to change */
-    background-color: #302C2C;  /* Background colour of the whole site */
+    background-color: #BABD8D;  /* Background colour of the whole site */
 }
 
 main {
@@ -18,11 +19,23 @@ main {
 
 .entry {
     @apply border w-full flex flex-row items-center; /* Sane defaults that you hopefully don't need to change */
-    background-color: #BEBABA;  /* Background colour of each entry */
+    border: #000000;
+    border-style: solid;
+    border-width: 1.5px;
+    background-color: #FFFFFF;  /* Background colour of each entry */
     max-width: 350px;           /* Width of each entry (at max size) */
     height: 80px;               /* Height of each link entry */
     gap: 20px;                  /* Gap between the icon and the text */
     padding: 20px;              /* Padding around the icon and text */
     color: black;               /* The colour of the text */
-    border-radius: 5px;         /* The roundness of the corners */
+    border-radius: 20px;         /* The roundness of the corners */
+
+    transition: background-color 0.5s;
+}
+
+.entry:hover{
+    text-decoration-line:underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    background-color: #E0E1CB;
 }

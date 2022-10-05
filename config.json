@@ -1,24 +1,19 @@
 {
-  "name": "John Smith",
+  "name": "Hello - I'm Jess!",
   "links": [
     {
-      "name": "Website",
-      "link": "https://gdsc.nz",
-      "icon": "fa fa-globe"
-    },
-    {
-      "name": "Email",
-      "link": "mailto:hello@gdsc.nz",
+      "name": "email",
+      "link": "mailto:villegas.jessica186@gmail.com",
       "icon": "fa-regular fa-envelope"
     },
     {
-      "name": "GitHub",
-      "link": "https://github.com",
+      "name": "github",
+      "link": "https://github.com/veejess",
       "icon": "fa-brands fa-github"
     },
     {
-      "name": "LinkedIn",
-      "link": "https://linkedin.com",
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/jessica-villegas-0618/",
       "icon": "fa-brands fa-linkedin"
     }
   ]
