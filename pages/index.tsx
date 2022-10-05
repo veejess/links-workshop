@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         </Head>
 
         <main>
-          <div>
+          <div className="name">
             {name}
           </div>
           {links.map(LinkEntry)}

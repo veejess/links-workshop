@@ -10,32 +10,38 @@ body {
 
 .app {
     @apply grid h-screen; /* Sane defaults that you hopefully don't need to change */
-    background-color: #BABD8D;  /* Background colour of the whole site */
+    background-color: #588157;  /* Background colour of the whole site */
 }
 
 main {
     @apply flex flex-col gap-[20px] items-center w-full place-self-center; /* Sane defaults that you hopefully don't need to change */
 }
 
+.name {
+    color: #DAD7CD;
+    font-size:xx-large;
+}
+
 .entry {
     @apply border w-full flex flex-row items-center; /* Sane defaults that you hopefully don't need to change */
-    border: #000000;
+    border: #344E41;
     border-style: solid;
     border-width: 1.5px;
-    background-color: #FFFFFF;  /* Background colour of each entry */
-    max-width: 350px;           /* Width of each entry (at max size) */
-    height: 80px;               /* Height of each link entry */
+    background-color: #DAD7CD;  /* Background colour of each entry */
+    max-width: 250px;           /* Width of each entry (at max size) */
+    height: 70px;               /* Height of each link entry */
     gap: 20px;                  /* Gap between the icon and the text */
     padding: 20px;              /* Padding around the icon and text */
-    color: black;               /* The colour of the text */
+    color: #213129;               /* The colour of the text */
     border-radius: 20px;         /* The roundness of the corners */
 
-    transition: background-color 0.5s;
+    font-size: large;
+    transition: color 0.3s;
 }
 
 .entry:hover{
     text-decoration-line:underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
-    background-color: #E0E1CB;
+    text-underline-offset: 4px;
+    color: #588157;
 }
