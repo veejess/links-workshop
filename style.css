@@ -5,6 +5,7 @@
 
 body {
     font-family: 'DM Serif Display', serif;
+    height: 100%;
     @apply text-3xl; /* Sane defaults that you hopefully don't need to change */
 }
 
